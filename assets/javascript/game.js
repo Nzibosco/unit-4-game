@@ -1,7 +1,8 @@
 // set target numbers to be chosen from for each game round
 // (i.e when the game is reset in case the player wins or lose). 
 var guessNumber; 
-
+guessNumber = (Math.floor(Math.random() * 102) + 19);
+$(".target-number").text("Number to guess: " + guessNumber);
 // initialize game vars to 0 
 var win = 0;
 var lose = 0;
@@ -25,8 +26,6 @@ var crystalNumber = [3, 10, 11, 5];
 
 //setting function to play the game. 
     $(".crystalvalue").on("click", function () {
-        guessNumber = (Math.floor(Math.random() * 102) + 19);
-        $(".target-number").text("Number to guess: " + guessNumber);
         var value = ($(this).attr("data-value"));
         value = parseInt(value);
         score += value;
