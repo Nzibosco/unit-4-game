@@ -1,4 +1,57 @@
 .crystalvalue{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+    border: solid;
+    margin-top:5px;
+}
+
+#header {
+    font-size: 30px;
+    background-color:orange;
+    color: white;
+    padding:8px;
+    margin: 5px;
+}
+h1 {
+    width: 30%;
+}
+#game-info{
+    width: 60%;
+    padding: 20px;
+    background-color: khaki;
+    font-family: monospace;
+    font-size: 17px;
+
+}
+#score-info{
+    padding: 5px;
+    width: 8%;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    font-size: 30px;
+}
+
+.target-number{
+    width:10%;
+    padding: 40px;
+    margin-right: 10px;
+    float: left;
+    background-color: green;
+    font-size: 17px;
+    font-weight: bold;
+}
+.win-lose-section{
+    float: left;
+    background-color: powderblue;
+}
+#crystals {
+    clear: both;
+}
+
+body{
+    font-family: monospace;
+}
+p{
+    font-size: 17px;
 }
