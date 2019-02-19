@@ -1,8 +1,8 @@
 # unit-4-game
 
-Game name: Crystals Collector.
+#Game name: Crystals Collector.
 
-Game overview and instructions: 
+#Game overview and instructions: 
 
 You will be given a random number at the start of the game.
 
